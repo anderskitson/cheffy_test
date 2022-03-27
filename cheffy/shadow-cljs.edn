@@ -1,11 +1,13 @@
 {:source-paths ["src"]
 
- :dependencies [[proto-repl "0.3.1"]
+ :dependencies [;;[proto-repl "0.3.1"]
                 [binaryage/devtools "0.9.10"]
-                [reagent "0.8.1"]
+                [reagent "1.1.0"]
                 [re-frame "0.10.6"]
-                [day8.re-frame/re-frame-10x "0.3.6-react16"]
+                [day8.re-frame/re-frame-10x "1.2.1"]
                 [bidi "2.1.5"]
+                ;;[nrepl "0.9.0"]
+                ;;[cider/cider-nrepl "0.28.3"]
                 [kibu/pushy "0.3.8"]
                 [com.andrewmcveigh/cljs-time "0.5.2"]]
 
